@@ -86,6 +86,12 @@ Developed by:Kaviya
 
 RegisterNumber:24900714
 
+
+
+
+
+
+
 **RTL Schematic**
 ![Full adder sum](https://github.com/user-attachments/assets/4d2c37db-79fc-490a-8b22-b09edf779b89)
 
