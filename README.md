@@ -36,7 +36,9 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
+
 **Procedure**
+
 
 1.Type the program in Quartus software.
 
@@ -85,7 +87,9 @@ Developed by:Kaviya
 
 RegisterNumber:24900714
 
+
 **RTL Schematic**
+
 
 ![Full adder sum](https://github.com/user-attachments/assets/4d2c37db-79fc-490a-8b22-b09edf779b89)
 
@@ -93,6 +97,8 @@ RegisterNumber:24900714
 
 
 **Output**
+
+
 ![Full adder sum waveform](https://github.com/user-attachments/assets/05c54a2c-29d2-4a34-9a1f-1441f41de5e4)
 
 ![full subtractor waveform](https://github.com/user-attachments/assets/4adddc62-bfd0-48d6-8009-d4a22ff1b26c)
