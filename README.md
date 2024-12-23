@@ -36,6 +36,13 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
+**TRUTH TABLE**
+
+![WhatsApp Image 2024-12-21 at 09 58 44_a02f2549](https://github.com/user-attachments/assets/6b043e95-fb65-4f95-8fff-b687847cc3f1)
+
+![WhatsApp Image 2024-12-21 at 09 59 03_094b7638](https://github.com/user-attachments/assets/80fc4c77-fad1-41bd-8de2-c6bb78c23c92)
+
+
 
 **Procedure**
 
@@ -82,26 +89,27 @@ assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
 
 endmodule
 
-Developed by:Kaviya
+Developed by:Kaviya.V.M
 
 RegisterNumber:24900714
 
 
 
-
-
-
-
 **RTL Schematic**
+
+
 ![Full adder sum](https://github.com/user-attachments/assets/4d2c37db-79fc-490a-8b22-b09edf779b89)
 
 ![full subtractor ](https://github.com/user-attachments/assets/5fbf92cd-3c16-4909-a868-7c8d696c281c)
 
+
 **Output**
+
 
 ![Full adder sum waveform](https://github.com/user-attachments/assets/05c54a2c-29d2-4a34-9a1f-1441f41de5e4)
 
 ![full subtractor waveform](https://github.com/user-attachments/assets/4adddc62-bfd0-48d6-8009-d4a22ff1b26c)
+
 
 **Result:**
 
