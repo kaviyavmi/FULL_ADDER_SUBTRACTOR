@@ -1,6 +1,6 @@
 # FULL_ADDER_SUBTRACTOR
 
-Implementation-of-Full-Adder-and-Full-subtractor-circuit
+Implementation of Full Adder and Full Subtractor circuit
 
 **AIM:**
 
@@ -42,7 +42,7 @@ FULL ADDER
 
 ![WhatsApp Image 2024-12-21 at 09 58 44_a02f2549](https://github.com/user-attachments/assets/6b043e95-fb65-4f95-8fff-b687847cc3f1)
 
-FULL SUBRACTOR
+FULL SUBTRACTOR
 
 ![WhatsApp Image 2024-12-21 at 09 59 03_094b7638](https://github.com/user-attachments/assets/80fc4c77-fad1-41bd-8de2-c6bb78c23c92)
 
@@ -64,7 +64,6 @@ FULL SUBRACTOR
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 
 i)FULL ADDER
 
@@ -76,7 +75,7 @@ output sum,carry;
 
 assign sum=( (a ^ b)^cin);
 
-assign carry= ( (a & b)| ( cin &(a ^ b )));
+assign carry= ( (a & b) | ( cin & (a ^ b )));
 
 endmodule
 
@@ -90,9 +89,10 @@ output difference,borrow;
 
 assign difference= ((a ^ b)^bin);
 
-assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b )));
+assign borrow= ( ( ~ a & b ) | ( bin & ( ~ (a ^ b ) ) );
 
 endmodule
+
 
 Developed by:Kaviya.V.M
 
@@ -106,7 +106,7 @@ FULL ADDER RTL
 
 ![Full adder sum](https://github.com/user-attachments/assets/4d2c37db-79fc-490a-8b22-b09edf779b89)
 
-FULL SUBRACTOR RTL
+FULL SUBTRACTOR RTL
 
 ![full subtractor ](https://github.com/user-attachments/assets/5fbf92cd-3c16-4909-a868-7c8d696c281c)
 
@@ -117,7 +117,7 @@ FULL ADDER WAVEFORM
 
 ![Full adder sum waveform](https://github.com/user-attachments/assets/05c54a2c-29d2-4a34-9a1f-1441f41de5e4)
 
-FULL SUBRACTOR WAVEFORM
+FULL SUBTRACTOR WAVEFORM
 
 ![full subtractor waveform](https://github.com/user-attachments/assets/4adddc62-bfd0-48d6-8009-d4a22ff1b26c)
 
